@@ -11,5 +11,12 @@ class Program
         // Japanese greeting
         greetings.YoiTsuitachi();
 
+        Fundament fundament = new Fundament();
+
+        fundament.CheckOddOrEven(2);
+        fundament.GetAInterestingFact("HeiPåDeg");
+
+        Console.WriteLine(fundament.CheckOddOrEven);
+        Console.WriteLine(fundament.GetAInterestingFact("Her går fakta"));
     }
 }
